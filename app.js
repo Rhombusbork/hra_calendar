@@ -2,7 +2,7 @@ const STORE = "hra20-checks";
 const TEAMS = ["1조", "2조", "3조"];
 
 // 공유 저장소(Google Apps Script 웹 앱 URL). 비어 있으면 이 브라우저에만 저장한다.
-const API = "https://script.google.com/macros/s/AKfycby9oyl_hayFbKHbmMA8Ewv_491G8Ke-6MDLIdXLs9vKRQ_A2kvh33mw6C59Xv5l4LpEBw/exec";
+const API = ""; // 보기 전용: 공유 시트를 읽지 않고 data.js 일정만 보여준다
 
 let checks = {};
 let moves = {}; // 원래 수업일 → 바뀐 수업일
